@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.wallpapersafari.com/phone/640/1136/72/76/ULHTGt.jpg");
+  /*   background-color: #000000; */
+  min-height: 100vh;
+  background-position: center;
+  /*   background-repeat: no-repeat; */
+  background: linear-gradient(#e68cff, #e9a4fd, #e27aff, #ea9fff);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+#listaDeComidas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #fff;
+  background: #65004f;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+#nomeDaComida {
+  margin-top: 10px;
+}
+
+#Nome {
+  color: #dbf4a7;
+  max-width: 200px;
+  min-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+figcaption {
+  color: #ffffff;
+}
+
+select {
+  display: block;
+  margin: 12px auto;
+}
